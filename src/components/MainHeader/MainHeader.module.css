@@ -1,0 +1,34 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdb827;
+  padding: 0 8rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+}
+.nav h1 {
+  color: #23120b;
+  font-weight: 900;
+}
+.mainImage {
+  width: 100%;
+  overflow-x: hidden;
+  z-index: 0;
+  height: 25rem;
+  position: relative;
+}
+
+.mainImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+  -webkit-filter: brightness(60%);
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}

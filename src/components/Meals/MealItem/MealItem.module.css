@@ -1,0 +1,19 @@
+.item-container {
+  border-bottom: solid 0.5px #d6d6d6;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.item-container h3 {
+  margin: 0 0 0.25rem 0;
+}
+.price {
+  margin-top: 0.25rem;
+  font-weight: bold;
+  color: #fc5404;
+  font-size: 1.25rem;
+}
+cite {
+font-size: 0.8rem;
+}

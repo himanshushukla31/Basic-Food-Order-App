@@ -1,0 +1,27 @@
+.button {
+  color: #23120b;
+  cursor: pointer;
+  font: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 600;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5rem;
+  background-color: #eeeeee;
+}
+
+.icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 1rem;
+}
+
+.badge {
+  margin-left: 0.5rem;
+  padding: 4px 16px;
+  background-color: #fdb827;
+  border-radius: 100px;
+  font-weight: bold;
+}

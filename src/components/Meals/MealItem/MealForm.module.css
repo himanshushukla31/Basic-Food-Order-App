@@ -1,0 +1,25 @@
+.control {
+  text-align: right;
+}
+
+.control button {
+  background-color: #ffca57;
+  border: none;
+  padding: 5px 25px;
+  border-radius: 100px;
+  font: inherit;
+  font-weight: 800;
+  color: #000;
+  position: relative;
+  margin-right: auto;
+}
+
+label {
+  margin: 10px;
+}
+
+.control button:hover,
+button:active {
+  background-color: #fdb827;
+  cursor: pointer;
+}
